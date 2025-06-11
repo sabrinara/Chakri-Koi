@@ -24,7 +24,7 @@ app.use('/api/admin', require('./routes/adminRoutes'));
 
 // Health check / root
 app.get('/', (req, res) => {
-  res.send('Onnetion Job Portal API is running');
+  res.send('Chakri koi! Job Portal API is running');
 });
 
 // Error handling middleware (optional, simple)
